@@ -3,7 +3,7 @@
 	<head>
 		<title>Run Buddy</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
 	<body>
 		<header>
@@ -19,7 +19,52 @@
 			What We Do What You Do Your Trainers Reach Out
 		</header>
 		<!-- Hero jumbotron-->
-		<section></section>
+		<section class="hero">
+			<div class="hero-form">
+				<h3>Get Started Today!</h3>
+				<p>
+					Fill out this form and one of our trainers will schedule a consult
+				</p>
+				<form>
+					<label for="name">Enter Full Name:</label>
+					<input
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Your Name"
+						class="form-input"
+					/>
+					<label for="email">Enter Email Address:</label>
+					<input
+						type="email"
+						id="email"
+						name="email"
+						placeholder="Email"
+						class="form-input"
+					/>
+					<label for="phone">Enter Telephone Number:</label>
+					<input
+						type="tel"
+						id="phone"
+						name="phone"
+						placeholder="Phone"
+						class="form-input"
+					/>
+					<p>
+						Have you worked out with a trainer before?
+						<input type="radio" name="trainer-confirm" id="trainer-yes" />
+						<label for="trainer-yes">Yes</label>
+						<input type="radio" name="trainer-confirm" id="trainer-no" />
+						<label for="trainer-no">No</label>
+					</p>
+					<p>
+						I acknowledge that I am at least 18 years of age
+						<input type="checkbox" id="checkbox" name="age-confirm" />
+					</p>
+					<button type="submit">Get Running!</button>
+				</form>
+			</div>
+		</section>
 		<!-- what we do -->
 		<section>
 			<h2>What We Do</h2>
