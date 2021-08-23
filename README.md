@@ -12,3 +12,5 @@ https://sonali-sohoni.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Sonali Sohoni
+
+### ©️2019 Run Buddy, Inc 
