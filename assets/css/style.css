@@ -31,20 +31,24 @@ header nav {
 	margin: 7px 0px;
 }
 
-header nav ul li {
-	display: inline;
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
 }
 
 header nav ul li a {
 	font-weight: lighter;
-	font-size: 22px;
+	font-size: 1.55vw;
 	margin: 0px 30px;
 }
 
 footer {
 	background: #fce138;
 	padding: 40px 35px;
-	width: 100%;
+	width: 100%;git b
 }
 footer div {
 	float: right;
